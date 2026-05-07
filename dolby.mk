@@ -49,6 +49,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libstagefright_foundation-v33
 
+PRODUCT_PACKAGES += \
+    libshim_dolby
+
 # Init
 PRODUCT_PACKAGES += \
     init.dolby.rc
